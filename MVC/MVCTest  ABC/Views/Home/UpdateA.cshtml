@@ -1,0 +1,34 @@
+@using MVCTest.Models
+@model Author
+
+
+@{
+    ViewData["Title"] = "Create Page";
+}
+
+
+
+
+
+
+
+@using(Html.BeginForm("UpdateAuthor", "Home", Model))
+{
+    <legend>Update Author</legend>
+    <div>
+      
+       @Html.TextBoxFor(model => model.Id, new { Style="display :none;" })
+    </div>
+    <br>
+    <div>
+        @Html.DisplayNameFor(model => model.Name)
+        @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+    </div>
+    
+    
+    
+   <br>
+   
+
+    <input type="submit" name="SaveButton" value="Save" class="btn btn-primary"/>
+}

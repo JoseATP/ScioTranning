@@ -1,0 +1,38 @@
+@using MVCTest.Models
+@model Books
+
+
+@{
+    ViewData["Title"] = "Create Page";
+}
+
+
+
+
+
+
+
+@using(Html.BeginForm("SaveBook", "Home", Model))
+{
+    <legend>Add new product</legend>
+    <div>
+        @Html.DisplayNameFor(model => model.Name)
+        @Html.TextBoxFor(model => model.Name , new { @class = "form-control" })
+    </div>
+    <br>
+    <div>
+       @Html.DisplayNameFor(model => model.Author)
+       @Html.DropDownListFor(model => model.Author,  (IEnumerable <SelectListItem>) ViewData["Authors"], "Selecciona Autor", new { @class = "custom-select mr-sm-2" })
+
+    </div>
+    <br>
+    <div>
+       @Html.DisplayNameFor(model => model.Price)
+       @Html.TextBoxFor(model => model.Price , new { @class = "form-control" })
+    </div>
+    
+   <br>
+   
+
+    <input type="submit" name="SaveButton" value="Save" class="btn btn-primary"/>
+}

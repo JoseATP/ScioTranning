@@ -1,0 +1,101 @@
+function paint(e) {
+/*
+  var row=e.parentElement.rowIndex;
+  var cell=e.cellIndex;
+  if(flag==0){
+
+  e.bgColor ="red";
+  e.innerHTML ="X";
+  flag=1;
+  value ="X";
+  }
+else{
+
+e.bgColor ="blue";
+e.innerHTML ="O";
+flag=0;
+value ="O";
+
+}
+add(row,cell,value);
+check();*/
+}
+
+function add(row,cell,val){
+  if(row == 0 ){
+    switch(cell){
+      case 0: c1=val; break;
+      case 1: c2=val; break;
+      case 2: c3=val; break;
+    }
+}
+else if(row == 1 ){
+  switch(cell){
+    case 0: c4=val; break;
+    case 1: c5=val; break;
+    case 2: c6=val; break;
+  }
+}
+
+else if(row == 2 ){
+  switch(cell){
+    case 0: c7=val; break;
+    case 1: c8=val; break;
+    case 2: c9=val; break;
+  }
+}
+
+console.log(row +" "+cell+" "+val+" "+c1);
+
+}
+
+
+/*function check() {
+  var l0=c1+c2+c3;
+  var l1=c4+c5+c6;
+  var l2=c7+c8+c9;
+  var col0=c1+c4+c7;
+  var col1=c2+c5+c8;
+  var col2=c3+c6+c9;
+  if(l0 == "XXX" || l0 == "OOO" || l1 == "XXX" || l1 == "OOO" || l2 == "XXX" || l2 == "OOO" ){
+      alert("win");
+
+  }
+}*/
+
+
+
+
+
+
+
+
+
+
+$("td").click(function () {
+    var id=  this.getAttribute("id");
+    id=id.substring(id.length-1);
+
+    if(flag==0){
+
+    this.bgColor ="red";
+    this.innerHTML ="X";
+    flag=1;
+    value ="X";
+    player.push(id);
+    check(player);
+    tiro=id;
+    tiros.push(id);
+    }
+  else{
+
+    this.bgColor ="blue";
+    this.innerHTML ="O";
+    flag=0;
+    machine.push(id);
+      check(machine);
+      tiro=id;
+        tiros.push(id);
+        machineIA(tiro);
+    }
+});

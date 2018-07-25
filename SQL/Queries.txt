@@ -1,0 +1,89 @@
+--1--
+Select FirstName,EmailAddress from SalesLT.Customer where CompanyName='Bike World';
+
+--2--
+Select CompanyName from SalesLT.Customer cu inner join 
+SalesLT.CustomerAddress ca
+on cu.CustomerID=ca.CustomerID
+inner join SalesLT.Address ad
+on ca.AddressID=ad.AddressID where City ='Dallas';
+
+--3--
+select count(*) as quantity from SalesLT.Product pro
+inner join SalesLT.SalesOrderDetail sale
+on pro.ProductID=sale.ProductID where pro.ListPrice > 1000;
+
+
+
+-- 6--
+select s.SalesOrderID,p.ListPrice
+from SalesLT.Product p inner join SalesLT.SalesOrderDetail s
+on p.ProductID = s.ProductID
+group by s.SalesOrderID,p.ListPrice 
+having count(s.ProductID) = 1
+
+
+--7---
+
+Select PM.Name,C.CompanyName from SalesLT.ProductModel PM
+inner join SalesLT.Product P on PM.ProductModelID=P.ProductModelID
+inner join SalesLT.SalesOrderDetail SD on P.ProductID = SD.ProductID
+inner join SalesLT.SalesOrderHeader SH on SH.SalesOrderID= SD.SalesOrderID
+inner join SalesLT.Customer C on C.CustomerID=SH.CustomerID 
+where PM.Name='Racing Socks';
+
+--8--
+
+SELECT PD.Description from SalesLT.ProductDescription PD
+inner join SalesLT.ProductModelProductDescription PMD
+on PD.ProductDescriptionID =PMD.ProductDescriptionID
+inner join SalesLT.ProductModel PM on PM.ProductModelID=PMD.ProductModelID
+inner join SalesLT.Product P on P.ProductModelID=PM.ProductModelID
+where P.ProductID=736;
+
+
+--11 Internet--
+
+SELECT AddressLine1,
+ case when CA.AddressType='Shipping' then AddressLine1 else '' end as 'Shipping Address'
+ FROM SalesLT.Customer C 
+inner join SalesLT.CustomerAddress CA on C.CustomerID=CA.CustomerID
+inner join  SalesLT.Address A on CA.AddressID=A.AddressID
+where  CA.AddressType='Main Office' and A.City='Dallas' ;
+
+
+---12---
+
+Select SO.SalesOrderID ,SO.SubTotal,sum(SOD.OrderQty*SOD.UnitPrice) as B,SUM(SOD.OrderQty*p.ListPrice) as C
+ from SalesLT.SalesOrderHeader SO , SalesLT.SalesOrderDetail SOD,
+SalesLT.Product P where  SO.SalesOrderID=SOD.SalesOrderID and SOD.ProductID=P.ProductID
+group by SO.SalesOrderID,SO.SubTotal;
+
+
+--13---
+
+Select Name ,sum(OrderQty) as valor from SalesLT.SalesOrderDetail SO
+inner join SalesLT.Product  P on SO.ProductID=P.ProductID
+group by SO.ProductID ,Name order by  sum(OrderQty) DESC;
+
+
+--1---
+
+SELECT SO.SalesOrderID from SalesLT.Customer CU ,SalesLT.SalesOrderHeader SO
+where CU.CustomerID=SO.CustomerID and
+CU.CompanyName = 'Bike World' or CU.CompanyName= 'Good Toys';
+
+
+--2---
+
+SELECT P.Name,SOD.OrderQty from SalesLT.Customer CU ,SalesLT.SalesOrderHeader SO,
+SalesLT.SalesOrderDetail SOD,SalesLT.Product P
+where CU.CustomerID=SO.CustomerID and SOD.SalesOrderID=SO.SalesOrderID and
+P.ProductID=SOD.ProductID and
+CU.CompanyName = 'Futuristic Bikes' ;
+
+--3--
+Select CU.CompanyName,A.AddressLine1 from SalesLT.Customer CU ,SalesLT.CustomerAddress CA,
+SalesLT.Address A where CU.CustomerID=CA.CustomerID and CA.AddressID=A.AddressID
+and CU.CompanyName LIKE  '%bike%'  or CU.CompanyName LIKE  '%cycle%' 
+group by CU.CompanyName,A.AddressLine1 ;

@@ -1,0 +1,41 @@
+﻿@using MVCTest.Models
+@model IEnumerable<Books>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+
+<h1> Welcome</h1>
+
+<table class="table table-striped">
+    <tr >
+        
+        <th>Name</th>
+        <th>Delete</th>
+        <th>Details</th>
+        
+    </tr>
+    
+    @foreach(var item in Model)
+    {
+        <tr>  
+             
+             <td>@item.Name </td>
+            <td>@item.Author  </td>
+            <td> @Html.ActionLink("Details", "Details", "Home", item, new  {@class = "btn btn-warning" }) </td>
+            
+        </tr>
+    }
+       
+    
+     
+</table>
+
+
+
+
+ 
+ <!-- @Html.RouteLink("Go to other page", new {action= "Other",controller="Home" }) -->

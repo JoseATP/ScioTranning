@@ -1,0 +1,39 @@
+@using MVCTest.Models
+@model IEnumerable<Books>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<h1>Titles</h1>
+
+<table class="table table-striped">
+    <tr >
+        
+        <th>Name</th>
+        <th>Author</th>
+        <th>Price</th>
+        <th>Update</th>
+        <th>Delete</th>
+        
+    </tr>
+    
+    @foreach(var item in Model)
+    {
+        <tr>  
+             
+             <td>@item.Name  </td>
+             <td>@item.Author </td>
+             <td>@item.Price </td>
+             <td>@Html.ActionLink("Delete", "DeleteBook", item, new {@class = "btn btn-danger" } )</td>
+             <td>@Html.ActionLink("Update", "UpdateB", "Home", item,new  {@class = "btn btn-warning" } )</td>
+        </tr>
+    }
+       
+    
+     
+</table>
+
+
+

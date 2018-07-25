@@ -1,0 +1,55 @@
+C:\Users\cestrada\Desktop\Intership\Examples\MVC\MVCTest\bin\Debug\netcoreapp2.0\MVCTest.deps.json
+C:\Users\cestrada\Desktop\Intership\Examples\MVC\MVCTest\bin\Debug\netcoreapp2.0\MVCTest.runtimeconfig.json
+C:\Users\cestrada\Desktop\Intership\Examples\MVC\MVCTest\bin\Debug\netcoreapp2.0\MVCTest.runtimeconfig.dev.json
+C:\Users\cestrada\Desktop\Intership\Examples\MVC\MVCTest\bin\Debug\netcoreapp2.0\MVCTest.dll
+C:\Users\cestrada\Desktop\Intership\Examples\MVC\MVCTest\bin\Debug\netcoreapp2.0\MVCTest.pdb
+C:\Users\cestrada\Desktop\Intership\Examples\MVC\MVCTest\obj\Debug\netcoreapp2.0\MVCTest.csprojResolveAssemblyReference.cache
+C:\Users\cestrada\Desktop\Intership\Examples\MVC\MVCTest\obj\Debug\netcoreapp2.0\MVCTest.csproj.CoreCompileInputs.cache
+C:\Users\cestrada\Desktop\Intership\Examples\MVC\MVCTest\obj\Debug\netcoreapp2.0\MVCTest.AssemblyInfoInputs.cache
+C:\Users\cestrada\Desktop\Intership\Examples\MVC\MVCTest\obj\Debug\netcoreapp2.0\MVCTest.AssemblyInfo.cs
+C:\Users\cestrada\Desktop\Intership\Examples\MVC\MVCTest\obj\Debug\netcoreapp2.0\MVCTest.dll
+C:\Users\cestrada\Desktop\Intership\Examples\MVC\MVCTest\obj\Debug\netcoreapp2.0\MVCTest.pdb
+D:\MVCTest\bin\Debug\netcoreapp2.0\MVCTest.deps.json
+D:\MVCTest\bin\Debug\netcoreapp2.0\MVCTest.runtimeconfig.json
+D:\MVCTest\bin\Debug\netcoreapp2.0\MVCTest.runtimeconfig.dev.json
+D:\MVCTest\bin\Debug\netcoreapp2.0\MVCTest.dll
+D:\MVCTest\bin\Debug\netcoreapp2.0\MVCTest.pdb
+D:\MVCTest\obj\Debug\netcoreapp2.0\MVCTest.csprojAssemblyReference.cache
+D:\MVCTest\obj\Debug\netcoreapp2.0\MVCTest.csproj.CoreCompileInputs.cache
+D:\MVCTest\obj\Debug\netcoreapp2.0\MVCTest.AssemblyInfoInputs.cache
+D:\MVCTest\obj\Debug\netcoreapp2.0\MVCTest.AssemblyInfo.cs
+D:\MVCTest\obj\Debug\netcoreapp2.0\MVCTest.dll
+D:\MVCTest\obj\Debug\netcoreapp2.0\MVCTest.pdb
+D:\Modelo Vista C\MVCTest  ABC\bin\Debug\netcoreapp2.0\MVCTest.deps.json
+D:\Modelo Vista C\MVCTest  ABC\bin\Debug\netcoreapp2.0\MVCTest.runtimeconfig.json
+D:\Modelo Vista C\MVCTest  ABC\bin\Debug\netcoreapp2.0\MVCTest.runtimeconfig.dev.json
+D:\Modelo Vista C\MVCTest  ABC\bin\Debug\netcoreapp2.0\MVCTest.dll
+D:\Modelo Vista C\MVCTest  ABC\bin\Debug\netcoreapp2.0\MVCTest.pdb
+D:\Modelo Vista C\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.csprojAssemblyReference.cache
+D:\Modelo Vista C\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.csproj.CoreCompileInputs.cache
+D:\Modelo Vista C\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.AssemblyInfoInputs.cache
+D:\Modelo Vista C\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.AssemblyInfo.cs
+D:\Modelo Vista C\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.dll
+D:\Modelo Vista C\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.pdb
+C:\Users\jose_\OneDrive\Documentos\Teckto\Scio\Modelo Vista C\MVCTest  ABC\bin\Debug\netcoreapp2.0\MVCTest.deps.json
+C:\Users\jose_\OneDrive\Documentos\Teckto\Scio\Modelo Vista C\MVCTest  ABC\bin\Debug\netcoreapp2.0\MVCTest.runtimeconfig.json
+C:\Users\jose_\OneDrive\Documentos\Teckto\Scio\Modelo Vista C\MVCTest  ABC\bin\Debug\netcoreapp2.0\MVCTest.runtimeconfig.dev.json
+C:\Users\jose_\OneDrive\Documentos\Teckto\Scio\Modelo Vista C\MVCTest  ABC\bin\Debug\netcoreapp2.0\MVCTest.dll
+C:\Users\jose_\OneDrive\Documentos\Teckto\Scio\Modelo Vista C\MVCTest  ABC\bin\Debug\netcoreapp2.0\MVCTest.pdb
+C:\Users\jose_\OneDrive\Documentos\Teckto\Scio\Modelo Vista C\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.csprojAssemblyReference.cache
+C:\Users\jose_\OneDrive\Documentos\Teckto\Scio\Modelo Vista C\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.csproj.CoreCompileInputs.cache
+C:\Users\jose_\OneDrive\Documentos\Teckto\Scio\Modelo Vista C\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.AssemblyInfoInputs.cache
+C:\Users\jose_\OneDrive\Documentos\Teckto\Scio\Modelo Vista C\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.AssemblyInfo.cs
+C:\Users\jose_\OneDrive\Documentos\Teckto\Scio\Modelo Vista C\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.dll
+C:\Users\jose_\OneDrive\Documentos\Teckto\Scio\Modelo Vista C\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.pdb
+D:\Terminado\MVCTest  ABC\bin\Debug\netcoreapp2.0\MVCTest.deps.json
+D:\Terminado\MVCTest  ABC\bin\Debug\netcoreapp2.0\MVCTest.runtimeconfig.json
+D:\Terminado\MVCTest  ABC\bin\Debug\netcoreapp2.0\MVCTest.runtimeconfig.dev.json
+D:\Terminado\MVCTest  ABC\bin\Debug\netcoreapp2.0\MVCTest.dll
+D:\Terminado\MVCTest  ABC\bin\Debug\netcoreapp2.0\MVCTest.pdb
+D:\Terminado\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.csprojAssemblyReference.cache
+D:\Terminado\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.csproj.CoreCompileInputs.cache
+D:\Terminado\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.AssemblyInfoInputs.cache
+D:\Terminado\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.AssemblyInfo.cs
+D:\Terminado\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.dll
+D:\Terminado\MVCTest  ABC\obj\Debug\netcoreapp2.0\MVCTest.pdb

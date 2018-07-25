@@ -1,0 +1,33 @@
+@using MVCTest.Models
+@model IEnumerable<Books>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<h1> Price</h1>
+
+<table class="table table-striped">
+    <tr>
+      
+        <th>Name</th>
+        <th>Price</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            
+            <td>
+                @item.Name
+               
+            </td>
+
+            <td>
+                @item.Price
+               
+            </td>
+        </tr>
+    }
+</table>
+

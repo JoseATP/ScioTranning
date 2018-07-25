@@ -1,0 +1,22 @@
+@using MVCTest.Models
+@model Books
+
+@{
+    ViewData["Title"] = "Details Page";
+}
+
+<h1> Details PAGE</h1>
+
+<div>
+    <h2>Name</h2>
+    @Model.Name
+</div>
+
+<div>
+    <h2>Author</h2>
+    @Model.Author
+</div>
+<div>
+    <h2>Price</h2>
+    @Model.Price
+</div>
