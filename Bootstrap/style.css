@@ -1,0 +1,33 @@
+#navHeader{
+
+background-color: rgba(5, 5, 5, .9);
+
+}
+
+#HeaderContainer{
+  padding-top: 30px;
+  color: white;
+}
+
+#navbarNavAltMarkup a{
+    color: white;
+}
+
+#carouselExampleIndicators{
+  width: 500px;
+  height: 500px;
+  margin :auto;
+}
+
+.carousel-inner img{
+  width: 500px;
+  height: 500px;
+  text-align: center;
+}
+
+
+.colordiv{
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+}
