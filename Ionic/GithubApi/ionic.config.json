@@ -1,0 +1,7 @@
+{
+  "name": "GithubApi",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
