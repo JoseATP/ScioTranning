@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ArtistComponent } from './artist/artist.component';
+import { EditArtistComponent } from './artist/edit-artist/edit-artist.component';
 
 const routes: Routes = [
   /* LOGIN */
@@ -17,6 +18,9 @@ const routes: Routes = [
   /*Artist*/
   { path: 'Artist', component: ArtistComponent },
   { path: 'artist', redirectTo: 'Artist', pathMatch: 'full' },
+  /*Artist Edit*/
+  { path: 'Artist/Edit/:id', component: EditArtistComponent },
+  { path: 'Artist/edit/:id', redirectTo: 'Artist/Edit/:id', pathMatch: 'full' },
   /* DEFAULT */
   { path: '**', redirectTo: 'Login' }
 ];

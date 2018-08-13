@@ -1,3 +1,29 @@
-<p>
-  artist works!
-</p>
+  
+  <table class="table text-center table-hover">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Images</th>
+        <th>Genres</th>
+        <th>Operations</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let artist of artists">
+        <td>
+          {{artist.name}}
+        </td>
+        <td><img src="{{artist.images}}" alt="" style="width:50px;height:50px;"></td>
+        <td>{{artist.genres}}</td>
+        <td>
+          <button class="btn btn-danger" (click)="deleteArtist(artist._id)">
+            Delete
+          </button>
+          <button class="btn btn-warning" (click)="updateArtist(artist._id)">
+            Update
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
