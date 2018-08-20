@@ -30,7 +30,7 @@ export class ArtistComponent implements OnInit {
       const tasks = this.artists;
       this.artistService.deleteArtist(id)
         .subscribe(data => {
-          if (data.n == 1) {
+          if (data.n === 1) {
             for (let i = 0; i < tasks.length; i++) {
               if (tasks[i]._id === id) {
                 tasks.splice(i, 1);
@@ -44,5 +44,7 @@ export class ArtistComponent implements OnInit {
   updateArtist(artistId) {
     this._router.navigate(['Artist/edit', artistId]);
   }
-
+  createArtist() {
+    this._router.navigate(['Artist/Add']);
+  }
 }

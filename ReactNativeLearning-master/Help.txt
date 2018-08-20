@@ -1,0 +1,22 @@
+Redux form****
+https://esbenp.github.io/2017/01/06/react-native-redux-form-immutable-styled-components/
+
+Projects****
+https://github.com/sunlight3d/react_native_v0.49
+
+https://github.com/mariodev12/redux-boilerplate-react-native/blob/master/src/superheroesList.js
+
+
+
+https://esbenp.github.io/2017/01/06/react-native-redux-form-immutable-styled-components/
+https://www.youtube.com/watch?v=QLujoPbqnOs
+https://code.likeagirl.io/not-logging-in-using-redux-persist-27f0371de976
+https://github.com/EQuimper/youtubetuto-learn-redux-persist
+https://github.com/rt2zz/redux-persist
+https://github.com/sunlight3d/react_native_v0.49/tree/master/50-Redux-form%231.Create%20a%20Simple%20form%20in%20React%20Native/code/tutorialProject
+http://docs.nativebase.io/docs/examples/ReduxFormExample.html
+http://docs.nativebase.io/Components.html#picker-input-headref
+https://github.com/misael93/RN-PracticeRedux/blob/master/src/actions/index.js
+https://egghead.io/lessons/javascript-redux-persisting-the-state-to-the-local-storage
+https://medium.com/@relferreira/react-native-redux-react-navigation-ecec4014d648
+https://medium.com/@mosesesan/tutorial-react-native-redux-boilerplate-4899f5c4f431

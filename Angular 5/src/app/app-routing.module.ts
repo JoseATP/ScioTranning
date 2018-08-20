@@ -6,6 +6,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ArtistComponent } from './artist/artist.component';
 import { EditArtistComponent } from './artist/edit-artist/edit-artist.component';
+import { AddArtistComponent } from './artist/add-artist/add-artist.component';
 
 const routes: Routes = [
   /* LOGIN */
@@ -21,6 +22,9 @@ const routes: Routes = [
   /*Artist Edit*/
   { path: 'Artist/Edit/:id', component: EditArtistComponent },
   { path: 'Artist/edit/:id', redirectTo: 'Artist/Edit/:id', pathMatch: 'full' },
+   /*Artist Add*/
+   { path: 'Artist/Add', component:  AddArtistComponent },
+   { path: 'Artist/add', redirectTo: 'Artist/add', pathMatch: 'full' },
   /* DEFAULT */
   { path: '**', redirectTo: 'Login' }
 ];

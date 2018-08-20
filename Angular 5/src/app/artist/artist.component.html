@@ -1,5 +1,13 @@
-  
-  <table class="table text-center table-hover">
+
+<div class="row">
+  <h1 class="display-4 mx-auto">Artists</h1>
+  </div>
+
+<button class="btn btn-primary" style="margin-top:30px" (click)="createArtist()" >
+ Create New Artist
+</button>
+
+  <table class="table text-center table-hover" style="margin-top:30px">
     <thead>
       <tr>
         <th>Name</th>
@@ -13,13 +21,13 @@
         <td>
           {{artist.name}}
         </td>
-        <td><img src="{{artist.images}}" alt="" style="width:50px;height:50px;"></td>
+        <td><img src="{{artist.images}}" alt="" style="width:100px;height:100px;"></td>
         <td>{{artist.genres}}</td>
         <td>
           <button class="btn btn-danger" (click)="deleteArtist(artist._id)">
             Delete
           </button>
-          <button class="btn btn-warning" (click)="updateArtist(artist._id)">
+          <button class="btn btn-warning" (click)="updateArtist(artist.identifier)">
             Update
           </button>
         </td>

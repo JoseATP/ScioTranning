@@ -3,5 +3,6 @@ export class ArtistParams {
     images: [String];
     genres: [String];
     _id: String;
+    identifier: String;
 
 }

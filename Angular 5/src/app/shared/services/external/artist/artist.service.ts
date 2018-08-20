@@ -16,11 +16,29 @@ export class ArtistService {
     .catch((error: any) => Observable.throw(error || 'Server error'));
 }
 
+getOneArtist(identifier) {
+  return this._http.get(Constant.API + `artists/${identifier}`)
+  .map((res: Response) => res.json())
+  .catch((error: any) => Observable.throw(error || 'Server error'));
+}
+
 deleteArtist(id): Observable<Artist> {
   return this._http.delete(Constant.API + `artists/${id}`)
   .map((res: Response) => res.json())
   .catch((error: any) => Observable.throw(error || 'Server error')
 );
+}
+
+updateArtist(body: ArtistParams): Observable<Artist> {
+  return this._http.put(Constant.API + 'artists/' + body._id, body, Constant.options)
+    .map((res: Response) => res.json())
+    .catch((error: any) => Observable.throw(error || 'Server error'));
+}
+
+createArtist(body: ArtistParams): Observable<Artist> {
+  return this._http.post(Constant.API + 'artists/', body, Constant.options)
+    .map((res: Response) => res.json())
+    .catch((error: any) => Observable.throw(error || 'Server error'));
 }
 
 }
